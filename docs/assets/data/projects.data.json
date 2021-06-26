@@ -1,0 +1,45 @@
+{ 
+    "projects":
+    [ 
+        {
+            "title": "Proxy-List-Scrapper",
+            "languages":"Python",
+            "imgurl":"https://raw.githubusercontent.com/narkhedesam/Proxy-List-Scrapper/master/_Proxy-List-Scrapper%20logo.jpg",
+            "content":"Proxy List Scrapper from various websites. They gives the free proxies for temporary use.",
+            "giturl":"https://github.com/narkhedesam/Proxy-List-Scrapper",
+            "url":"https://narkhedesam.github.io/Proxy-List-Scrapper/"
+        },
+        {
+            "title": "PyIm2Speak",
+            "languages":"Python",
+            "imgurl":"/assets/img/nopreview.png",
+            "content":"PyIm2Speak - Read image and speek the text content using PIL, langdetect, tesseract, gtts and playsound with Python",
+            "giturl":"https://github.com/narkhedesam/PyIm2Speak",
+            "url":""
+        },
+        {
+            "title": "Face Recognition",
+            "languages":"Python",
+            "imgurl":"/assets/img/nopreview.png",
+            "content":"Face Recognition - Face-Recognition via webcam or default camera in python.",
+            "giturl":"https://github.com/narkhedesam/Face-Recognition",
+            "url":""
+        },
+        {
+            "title": "narkhedesam.github.io",
+            "languages":"Angular 10 ",
+            "imgurl":"/assets/img/profile-withbg.jpg",
+            "content":"narkhedesam.github.io - Personal Website.",
+            "giturl":"https://github.com/narkhedesam/narkhedesam.github.io",
+            "url":"https://narkhedesam.github.io/"
+        },
+        {
+            "title": "Crazy4Python",
+            "languages":"DJango, Python3",
+            "imgurl":"/assets/img/crazy4python.jpg",
+            "content":"Crazy4Python - django simple blogging site and much more with python",
+            "giturl":"https://github.com/narkhedesam/crazy4python",
+            "url":"https://crazy4python.pythonanywhere.com/"
+        }
+    ]
+}
