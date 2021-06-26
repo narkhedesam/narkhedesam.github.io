@@ -1,0 +1,21 @@
+i.laguages {
+    font-size: 80%;
+}
+.card{
+    min-height: 500px;
+    height: 500px;
+}
+.projects-title::first-letter {
+    font-size: 30px;
+}
+
+.projects-title:after {
+    content: '';
+    position: relative;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -5px;
+    left: calc(50% - 50px);
+    display: block;
+}

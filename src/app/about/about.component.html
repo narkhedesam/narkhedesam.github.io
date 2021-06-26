@@ -1,0 +1,45 @@
+<section id="about" class="pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row shadow-lg p-3 mb-5 mt-5 bg-body rounded">
+                    <div class="col-md-6">
+                        <div *ngIf="_service.profileLoaded" class="row">
+                            <div class="col-sm-6 col-md-5">
+                                <div class="about-img">
+                                    <img [src]="_service.profile.url" class="img-fluid rounded b-shadow-a"
+                                        alt="Person">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-7">
+                                <div class="about-info p-2">
+                                    <p><span>{{ _service.profile.name }}</span></p>
+                                    <p><span>{{ _service.profile.profession }}</span>
+                                    </p>
+                                    <p><span>{{ _service.profile.email }}</span></p>
+                                    <p><span>{{ _service.profile.phone }}</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-me pt-5">
+                            <h5>About me</h5>
+                            <p>I'm a web developer who aims to combine the beauty of design with the logical perfection of coding. Training myself every day and pushing my own limits to discover new ways of creating a great experience for the users.</p>
+                            <p>{{_service.age}} years old computer scientist from India. Own a Master of Computer Applications (MCA) and a BSc In Computer Science both from North Maharashtra University.</p>
+                            <p>I started getting passionate about web developing at the age of 21 when I created my first website. Since then I kept learning day by day on my own until today.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <img class="w-100 p-2" src="https://github-readme-stats.vercel.app/api?username=narkhedesam&show_icons=true" alt="narkhedesam" height="200" />
+                            <img class="w-100 p-2"   src="https://github-readme-stats.vercel.app/api/top-langs?username=narkhedesam&layout=compact" alt="narkhedesam" height="200" />
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>

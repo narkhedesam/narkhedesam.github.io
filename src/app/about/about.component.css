@@ -1,0 +1,17 @@
+.about-me h5::first-letter {
+    font-size: 26px;
+}
+
+.about-me h5:after {
+    content: '';
+    position: relative;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -5px;
+    left: 0;
+    display: block;
+}
+section#about {
+    color: #8e8e8e;
+}
