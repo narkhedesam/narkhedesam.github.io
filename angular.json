@@ -35,7 +35,11 @@
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
+            ],
+            "allowedCommonJsDependencies": [
+              "jquery",
+              "typed.js"
+           ]
           },
           "configurations": {
             "production": {
@@ -125,6 +129,5 @@
         }
       }
     }
-  },
-  "defaultProject": "narkhedesam.github.io"
+  }
 }
